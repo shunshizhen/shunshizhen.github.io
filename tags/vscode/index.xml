@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 我的全新 Hugo 网站</title>
-        <link>http://shunshizhen.github.io/posts/</link>
-        <description>所有文章 | 我的全新 Hugo 网站</description>
+        <title>VScode - 标签 - 我的全新 Hugo 网站</title>
+        <link>http://shunshizhen.github.io/tags/vscode/</link>
+        <description>VScode - 标签 - 我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>clockwise0204@vip.qq.com (顺时针)</managingEditor>
-            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster><lastBuildDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</lastBuildDate><atom:link href="http://shunshizhen.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster><lastBuildDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</lastBuildDate><atom:link href="http://shunshizhen.github.io/tags/vscode/" rel="self" type="application/rss+xml" /><item>
     <title>VScode Shortcuts</title>
     <link>http://shunshizhen.github.io/index.zh_cn/</link>
     <pubDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</pubDate>

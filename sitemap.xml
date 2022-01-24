@@ -2,6 +2,11 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://shunshizhen.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://shunshizhen.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://shunshizhen.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://shunshizhen.github.io/categories/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/categories/command/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/posts/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/tags/shortcuts/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/tags/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/tags/vscode/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/index.zh_cn/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://shunshizhen.github.io/</loc><lastmod>2022-01-24T23:46:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
