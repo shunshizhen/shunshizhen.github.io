@@ -2,16 +2,9 @@
     <channel>
         <title>我的全新 Hugo 网站</title>
         <link>http://shunshizhen.github.io/</link>
-        <description>凡事懈于垂成，忽于既定</description>
+        <description>我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>clockwise0204@vip.qq.com (顺时针)</managingEditor>
-            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster><lastBuildDate>Mon, 24 Jan 2022 11:41:48 &#43;0800</lastBuildDate>
+            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster>
             <atom:link href="http://shunshizhen.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>First_post</title>
-    <link>http://shunshizhen.github.io/first_post/</link>
-    <pubDate>Mon, 24 Jan 2022 11:41:48 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://shunshizhen.github.io/first_post/</guid>
-    <description><![CDATA[Title  test  ]]></description>
-</item></channel>
+        </channel>
 </rss>
