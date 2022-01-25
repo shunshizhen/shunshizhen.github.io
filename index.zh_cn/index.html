@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://shunshizhen.github.io/index.zh_cn/" /><meta property="og:image" content="http://shunshizhen.github.io/index.zh_cn/featured-image.jpeg"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-01-24T23:46:18+08:00" />
-<meta property="article:modified_time" content="2022-01-25T10:24:05+08:00" />
+<meta property="article:modified_time" content="2022-01-25T23:46:05+08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://shunshizhen.github.io/index.zh_cn/featured-image.jpeg"/>
@@ -33,8 +33,8 @@
                             "url": "http:\/\/shunshizhen.github.io\/index.zh_cn\/featured-image.jpeg",
                             "width":  2000 ,
                             "height":  1335 
-                        }],"genre": "posts","keywords": "VScode, Shortcuts","wordcount":  31 ,
-        "url": "http:\/\/shunshizhen.github.io\/index.zh_cn\/","datePublished": "2022-01-24T23:46:18+08:00","dateModified": "2022-01-25T10:24:05+08:00","publisher": {
+                        }],"genre": "posts","keywords": "VScode, Shortcuts","wordcount":  436 ,
+        "url": "http:\/\/shunshizhen.github.io\/index.zh_cn\/","datePublished": "2022-01-24T23:46:18+08:00","dateModified": "2022-01-25T23:46:05+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -110,7 +110,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">VScode Shortcuts</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="shunshizhen.github.io" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>顺时针</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/command/"><i class="far fa-folder fa-fw"></i>Command</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-24">2022-01-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 31 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-24">2022-01-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 436 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -127,6 +127,14 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#general">General</a></li>
+    <li><a href="#basic-editing">Basic editing</a></li>
+    <li><a href="#search-and-replace">Search and replace</a></li>
+    <li><a href="#rich-languages-editing">Rich languages editing</a></li>
+    <li><a href="#navigation">Navigation</a></li>
+    <li><a href="#editor-management">Editor management</a></li>
+    <li><a href="#file-management">File management</a></li>
+    <li><a href="#display">Display</a></li>
+    <li><a href="#integrated-terminal">Integrated terminal</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>VScode 快捷键汇总</p>
@@ -140,28 +148,336 @@
 </thead>
 <tbody>
 <tr>
-<td>shift+command+p</td>
+<td>⇧ ⌘ P</td>
 <td>Show Command Palette</td>
 </tr>
 <tr>
-<td>command+p</td>
+<td>⌘ P</td>
 <td>Quick Open, Go to File</td>
 </tr>
 <tr>
-<td>shift+command+n</td>
-<td>New window/instance</td>
+<td>⇧ ⌘ N</td>
+<td>New window  /  instance</td>
 </tr>
 <tr>
-<td>command+w</td>
-<td>Close window/instance</td>
+<td>⌘ W</td>
+<td>Close window  /  instance</td>
 </tr>
 <tr>
-<td>command+,</td>
+<td>⌘ ,</td>
 <td>User Settings</td>
 </tr>
 <tr>
-<td>command+k+command+s</td>
+<td>⌘ K ⌘ S</td>
 <td>Keyboard Shortcuts</td>
+</tr>
+</tbody>
+</table>
+<h2 id="basic-editing">Basic editing</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ X</td>
+<td>Cut line(empty selection)</td>
+</tr>
+<tr>
+<td>⌥ ↑  /  ⌥ ↓</td>
+<td>Move line down / up</td>
+</tr>
+<tr>
+<td>⇧ ⌥ ↑  /  ⇧ ⌥ ↓</td>
+<td>Copy line down / up</td>
+</tr>
+<tr>
+<td>⌘ Enter  /  ⇧ ⌘ Enter</td>
+<td>Insert line below / above</td>
+</tr>
+<tr>
+<td>⇧ ⌘ \</td>
+<td>Jump to matching bracket</td>
+</tr>
+<tr>
+<td>⌘ [  /  ⌘ ]</td>
+<td>Indent / Outdent line</td>
+</tr>
+<tr>
+<td>Home  /  End</td>
+<td>Go to beginning / end of line</td>
+</tr>
+<tr>
+<td>⌘ ↑  /  ⌘ ↓</td>
+<td>Go to beginning / end of file</td>
+</tr>
+<tr>
+<td>⌘ K ⌘ C</td>
+<td>Add line comment</td>
+</tr>
+<tr>
+<td>⌘ K ⌘ U</td>
+<td>Remove line comment</td>
+</tr>
+<tr>
+<td>⌘ /</td>
+<td>Toggle line comment</td>
+</tr>
+<tr>
+<td>⇧ ⌥ A</td>
+<td>Toggle block comment</td>
+</tr>
+<tr>
+<td>⌥ Z</td>
+<td>Toggle word wrap</td>
+</tr>
+<tr>
+<td>⌘ L</td>
+<td>Select current line</td>
+</tr>
+</tbody>
+</table>
+<h2 id="search-and-replace">Search and replace</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ F</td>
+<td>Find</td>
+</tr>
+<tr>
+<td>⌥ ⌘ F</td>
+<td>Replace</td>
+</tr>
+<tr>
+<td>⌘ G  /  ⇧ ⌘ G</td>
+<td>Find next / previous</td>
+</tr>
+<tr>
+<td>⌥ Enter</td>
+<td>Select all occurrences of Find match</td>
+</tr>
+<tr>
+<td>⌘ D</td>
+<td>Add selection to next Find match</td>
+</tr>
+<tr>
+<td>⌘ K ⌘ D</td>
+<td>Move last selection to next Find match</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rich-languages-editing">Rich languages editing</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ I</td>
+<td>Trigger suggestion</td>
+</tr>
+<tr>
+<td>⇧ ⌥ F</td>
+<td>Format document</td>
+</tr>
+<tr>
+<td>⌘ .</td>
+<td>Quick Fix</td>
+</tr>
+<tr>
+<td>⌘ K M</td>
+<td>Change file language</td>
+</tr>
+</tbody>
+</table>
+<h2 id="navigation">Navigation</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ T</td>
+<td>Show all Symbols</td>
+</tr>
+<tr>
+<td>⌘ P</td>
+<td>Go to File</td>
+</tr>
+<tr>
+<td>⌃ G</td>
+<td>Go to Line</td>
+</tr>
+<tr>
+<td>⇧ ⌘ O</td>
+<td>Go to Symbol</td>
+</tr>
+<tr>
+<td>⇧ ⌘ M</td>
+<td>Show Problems panel</td>
+</tr>
+<tr>
+<td>⌃ Tab</td>
+<td>Navigate editor group history</td>
+</tr>
+<tr>
+<td>⌃ -</td>
+<td>Go back</td>
+</tr>
+</tbody>
+</table>
+<h2 id="editor-management">Editor management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ W</td>
+<td>Close editor</td>
+</tr>
+<tr>
+<td>⌘ K F</td>
+<td>Close editor</td>
+</tr>
+<tr>
+<td>⌘ \</td>
+<td>Split editor</td>
+</tr>
+</tbody>
+</table>
+<h2 id="file-management">File management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘ N</td>
+<td>New File</td>
+</tr>
+<tr>
+<td>⌘ O</td>
+<td>Open File</td>
+</tr>
+<tr>
+<td>⌘ W</td>
+<td>Close</td>
+</tr>
+<tr>
+<td>⌘ K ⌘ W</td>
+<td>Close All</td>
+</tr>
+<tr>
+<td>⌘ K P</td>
+<td>Copy path of active file</td>
+</tr>
+<tr>
+<td>⌘ K R</td>
+<td>Reveal active file in Finder</td>
+</tr>
+<tr>
+<td>⌘ K O</td>
+<td>Show active file in new window / instance</td>
+</tr>
+</tbody>
+</table>
+<h2 id="display">Display</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌃ ⌘ F</td>
+<td>Toggle full screen</td>
+</tr>
+<tr>
+<td>⌘ =  /  ⇧ ⌘ -</td>
+<td>Zoom in / out</td>
+</tr>
+<tr>
+<td>⌘ B</td>
+<td>Toggle Sidebar visibility</td>
+</tr>
+<tr>
+<td>⇧ ⌘ E</td>
+<td>Show Explorer  /  Toggle focus</td>
+</tr>
+<tr>
+<td>⇧ ⌘ F</td>
+<td>Show Search</td>
+</tr>
+<tr>
+<td>⇧ ⌘ D</td>
+<td>Show Debug</td>
+</tr>
+<tr>
+<td>⇧ ⌘ X</td>
+<td>Show Extensions</td>
+</tr>
+<tr>
+<td>⇧ ⌘ H</td>
+<td>Replace in files</td>
+</tr>
+<tr>
+<td>⇧ ⌘ J</td>
+<td>Toggle Search details</td>
+</tr>
+<tr>
+<td>⇧ ⌘ V</td>
+<td>Open Markdown preview</td>
+</tr>
+<tr>
+<td>⌘ K V</td>
+<td>Open Markdown preview to the side</td>
+</tr>
+<tr>
+<td>⌘ K Z</td>
+<td>Zen Mode (Esc Esc to exit)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="integrated-terminal">Integrated terminal</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌃ `</td>
+<td>Show integrated terminal</td>
+</tr>
+<tr>
+<td>⌃ ⇧ `</td>
+<td>Create new terminal</td>
 </tr>
 </tbody>
 </table></div><div class="post-footer" id="post-footer">

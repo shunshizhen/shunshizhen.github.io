@@ -4,7 +4,14 @@
         <link>http://shunshizhen.github.io/</link>
         <description>顺时针的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>clockwise0204@vip.qq.com (顺时针)</managingEditor>
-            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster>
+            <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster><lastBuildDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</lastBuildDate>
             <atom:link href="http://shunshizhen.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>VScode Shortcuts</title>
+    <link>http://shunshizhen.github.io/index.zh_cn/</link>
+    <pubDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://shunshizhen.github.io/index.zh_cn/</guid>
+    <description><![CDATA[<p>VScode 快捷键汇总</p>]]></description>
+</item></channel>
 </rss>
