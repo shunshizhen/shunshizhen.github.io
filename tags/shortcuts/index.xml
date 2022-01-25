@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Shortcuts - 标签 - 我的全新 Hugo 网站</title>
+        <title>Shortcuts - 标签 - 顺时针的博客</title>
         <link>http://shunshizhen.github.io/tags/shortcuts/</link>
-        <description>Shortcuts - 标签 - 我的全新 Hugo 网站</description>
+        <description>Shortcuts - 标签 - 顺时针的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>clockwise0204@vip.qq.com (顺时针)</managingEditor>
             <webMaster>clockwise0204@vip.qq.com (顺时针)</webMaster><lastBuildDate>Mon, 24 Jan 2022 23:46:18 &#43;0800</lastBuildDate><atom:link href="http://shunshizhen.github.io/tags/shortcuts/" rel="self" type="application/rss+xml" /><item>
     <title>VScode Shortcuts</title>
